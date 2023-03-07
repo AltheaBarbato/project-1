@@ -1,14 +1,13 @@
-#main-nav {
-  background-color: lightpink;
+#main-navbar {
+  background-color: blue;
   overflow: hidden;
 }
-#nav-contain {
+#navbar-container {
   float: left;
   width: 100%;
   position: relative;
 }
-
-#main-nav ul {
+#main-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -16,22 +15,18 @@
   left: 50%;
   float: left;
 }
-
-#main-nav ul li {
+#main-navbar ul li {
   float: left;
   position: relative;
   right: 50%;
   display: block;
-  font-family: "Leelawadee";
 }
-
-#main-nav ul li a {
+#main-navbar ul li a {
   display: block;
   padding: 10px 20px;
-  color: mediumvioletred;
+  color: #fff;
   text-decoration: none;
 }
-
-#main-nav ul li a:hover {
-  background-color: #ff9eb8;
+#main-navbar ul li a:hover {
+  background-color: #000;
 }
